@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+
+        </title>
+        <script>
+
+
+function myfunction(){
+            var value="";
+    
+            var firstvalue=prompt("Enter the first number to be added",value);
+            var secondvalues=prompt("Entert he second number",value);
+            
+    
+            var result=(Number(firstvalue)+Number(secondvalues));
+            var result1=(Number(firstvalue)*Number(secondvalues));
+
+            
+    
+          
+            document.getElementById("demo").innerHTML = "First Values"+firstvalue+"Second Value = "+secondvalues;
+            
+    
+    
+}
+            </script>
+    </head>
+    <body>
+
+
+        <p id="demo" style="color: orangered;"></p>
+        
+
+        <button type="button" onclick="document.getElementById('demo').innerHTML=Date()">GET DATE</button>
+
+
+        <button type="button" onclick="myfunction()">CLICK</button>
+       
+
+
+       
+        
+
+    
+
+        
+
+
+
+    </body>
+</html>
